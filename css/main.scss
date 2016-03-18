@@ -299,6 +299,7 @@ $stroke: #8e8097;
   border-radius: 50%;
   left: 0;
   top: -10px;
+  z-index: 2;
 }
 
 .beans::after {
@@ -328,9 +329,9 @@ $stroke: #8e8097;
   color: $dark-green;
   font-family: 'gooddogregular';
   font-size: 30px;
-  top: 20%;
+  top: 12%;
   position: relative;
-  padding: 15px 10px;
+  padding: 30px 10px 5px 10px;
 }
 
 .label::before {
@@ -348,7 +349,7 @@ $stroke: #8e8097;
   background: $light-green;
   width: 100%;
   height: 25px;
-  bottom: -10px;
+  bottom: -15px;
   position: absolute;
   content: '';
   border-radius: 50%;
